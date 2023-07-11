@@ -1,4 +1,5 @@
 <?php
+// i have not gotten everything i want from this page 
 session_start();
 include "includes/connection.php";
 
