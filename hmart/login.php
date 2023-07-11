@@ -1,6 +1,13 @@
 <?php 
+session_start();
 $pageTitle = 'create accouunt';
-include 'includes/header.php'?>
+include 'includes/header.php';
+
+
+?>
+<?php
+// session_start();
+?>
 
         <!-- OffCanvas Menu End -->
         <!-- breadcrumb-area start -->
@@ -38,16 +45,29 @@ include 'includes/header.php'?>
                                 <div id="lg1" class="tab-pane active">
                                     <div class="login-form-container">
                                         <div class="login-register-form">
-                                            <form action="#" method="post">
-                                                <input name="user-email" placeholder="Email" type="email" />
-                                                <input type="password" name="user-password" placeholder="Password" />
+                                            <form action="login-check.php" method="post">
+
+                                            <?php
+                                                    // session_start();
+
+                                                    // Display error message if there was an error
+                                                    if (isset($_SESSION["error"])) {
+                                                        echo '<div style="background-color: #f8d7da; padding: 10px;">' . $_SESSION["error"] . '</div>';
+                                                        unset($_SESSION["error"]); // Clear the error message
+                                                    }
+                                                ?>
+                                                <br>
+                                               
+
+                                                <input name="email" placeholder="Email" type="email" required />
+                                                <input type="password" name="user-password" placeholder="Password" required/>
                                                 <div class="button-box">
                                                     <div class="login-toggle-btn">
                                                         <input type="checkbox" />
                                                         <a class="flote-none" href="javascript:void(0)">Remember me</a>
                                                         <a href="#">Forgot Password?</a>
                                                     </div>
-                                                    <button type="submit"><span>Login</span></button>
+                                                    <button type="submit" name="logins"><span>Login</span></button>
                                                 </div>
                                             </form>
                                         </div>
@@ -56,11 +76,25 @@ include 'includes/header.php'?>
                                 <div id="lg2" class="tab-pane">
                                     <div class="login-form-container">
                                         <div class="login-register-form">
+
                                             <form action="register-check.php" method="post">
+                                            <?php
+                                                    if (isset($_SESSION["success"])) {
+                                                        echo '<div style="background-color: #c3e6cb; padding: 10px;">' . $_SESSION["success"] . '</div>';
+                                                        unset($_SESSION["success"]); // Clear the success message from session
+                                                    } elseif (isset($_GET["success"]) && $_GET["success"] == 1) {
+                                                        echo '<div style="background-color: #c3e6cb; padding: 10px;">Registration successful</div>';
+                                                    }
+                                                
+                                                    if (isset($_SESSION["error"])) {
+                                                        echo '<div style="background-color: #f8d7da; padding: 10px;">' . $_SESSION["error"] . '</div>';
+                                                        unset($_SESSION["error"]); // Clear the error message from session
+                                                    }
+                                                ?>  
                                                 <input type="text" name="name" placeholder="Full Name" />
                                                 <input type="tell" name="phone" placeholder="Phone Number" />
                                                 <input name="user-email" placeholder="Email" type="email" />
-                                                <input type="password" name="user-password" placeholder="Password" />
+                                                <input type="password" name="password" placeholder="Password" />
                                                 <input type="password" name="repassword" placeholder="Re-Type Password" />
                                                 <div class="button-box">
                                                     <button type="submit" name= "register"><span>Register</span></button>
