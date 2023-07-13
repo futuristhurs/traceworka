@@ -8,11 +8,11 @@ if (isset($_POST["logins"])) {
     $password = $_POST["password"];
 
     // Validate input fields
-    // if (empty($email) || empty($password)) {
-    //     $_SESSION["error"] = "Please enter your email and password.";
-    //     header("Location: login.php");
-    //     exit();
-    // }
+    if (empty($email) || empty($password)) {
+        $_SESSION["error"] = "Please enter your email and password.";
+        header("Location: login.php");
+        exit();
+    }
 
     // Query the database
     $sql = "SELECT * FROM users WHERE email = '$email' AND password = '$password'";
@@ -20,7 +20,8 @@ if (isset($_POST["logins"])) {
 
     if (mysqli_num_rows($result) === 1) {
         // Login successful
-        $_SESSION["email"] = $email;
+        $row = mysqli_fetch_assoc($result);
+        $_SESSION['name'] = $row['name']; // Assuming the name column is 'Name'
         header("Location: my-account.php");
         exit();
     } else {
@@ -29,5 +30,6 @@ if (isset($_POST["logins"])) {
         header("Location: login.php");
         exit();
     }
+
 }
 ?>

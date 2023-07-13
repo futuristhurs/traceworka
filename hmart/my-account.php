@@ -1,4 +1,5 @@
 <?php 
+session_start();
 $pageTitle = 'Account Dashboard';
 include 'includes/header.php'?>
 
@@ -44,6 +45,19 @@ include 'includes/header.php'?>
                         <div class="tab-content dashboard_content" data-aos="fade-up" data-aos-delay="200">
                             <div class="tab-pane fade show active" id="dashboard">
                                 <h4>Dashboard </h4>
+                                <?php
+                                // Check if the user is logged in
+                                if (isset($_SESSION['name'])) {
+                                    $name = $_SESSION['name'];
+                                
+                                    // Display the name within an <h3> tag
+                                    echo "<h3>Welcome, $name!</h3>";
+                                } else {
+                                    // Handle the case when the user is not logged in
+                                    // echo "You are not logged in.";
+                                    // header("Location: login.php");
+                                }
+                                ?>
                                 <p>From your account dashboard. you can easily check &amp; view your <a href="#">recent
                                         orders</a>, manage your <a href="#">shipping and billing addresses</a> and <a href="#">Edit your password and account details.</a></p>
                             </div>
