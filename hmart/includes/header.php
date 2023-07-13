@@ -43,9 +43,9 @@
                         <div class="col d-none d-lg-block">
                             <div class="top-nav">
                                 <ul>
-                                    <li><a href="tel:8835235891"><i class="fa fa-phone"></i> +2348835235891</a></li>
-                                    <li><a href="mailto:demo@example.com"><i class="fa fa-envelope-o"></i> traceworka@gmail.com</a></li>
-                                    <li><a href="login.html"><i class="fa fa-user"></i> Register/Login</a></li>
+                                    <li><a href="tel:8835235891"><i class="fa fa-phone"></i>+2348835235891</a></li>
+                                    <li><a href="mailto:demo@example.com"><i class="fa fa-envelope-o"></i>traceworka@gmail.com</a></li>
+                                    <li><a href="register.php"><i class="fa fa-user"></i>Register/</a><a hraf="login.php">Login</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-3 col">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/images/logo/logos.png" alt="Site Logo" /></a>
+                                <a href="index.php"><img src="assets/images/logo/logos.png" alt="Site Logo" /></a>
                             </div>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block">
@@ -97,7 +97,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-3 col">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/images/logo/logos.png" alt="Site Logo" /></a>
+                                <a href="index.php"><img src="assets/images/logo/logos.png" alt="Site Logo" /></a>
                             </div>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block">
@@ -135,7 +135,7 @@
                     <div class="header-nav">
                         <div class="main-menu position-relative">
                             <ul>
-                                <li class="dropdown"><a href="index.html">Home 
+                                <li class="dropdown"><a href="index.php">Home 
                                     <!-- <i class="fa fa-angle-down"></i> -->
                                 </a>
                                     <!-- <ul class="sub-menu">
@@ -251,7 +251,7 @@
                                         </li>
                                     </ul>
                                 </li> -->
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -374,7 +374,7 @@
             <div class="inner customScroll">
                 <div class="offcanvas-menu mb-4">
                     <ul>
-                        <li><a href="index.html"><span class="menu-text">Home</span></a>
+                        <li><a href="index.php"><span class="menu-text">Home</span></a>
                             <!-- <ul class="sub-menu">
                                 <li><a href="index.html"><span class="menu-text">Home 1</span></a></li>
                                 <li><a href="index-2.html"><span class="menu-text">Home 2</span></a></li>
@@ -474,7 +474,7 @@
                                 <li><a href="blog-single-right-sidebar.html">Single Right Sidbar</a>
                             </ul>
                         </li> -->
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- OffCanvas Menu End -->

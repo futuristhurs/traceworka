@@ -1,5 +1,13 @@
 <?php 
 session_start();
+
+// Check if the user is not logged in
+if (!isset($_SESSION['name'])) {
+    $_SESSION['error'] = "Please log in to access your account.";
+    header("Location: login.php");
+    exit();
+}
+
 $pageTitle = 'Account Dashboard';
 include 'includes/header.php'?>
 
