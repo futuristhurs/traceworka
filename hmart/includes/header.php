@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle?></title>
     <meta name="robots" content="index, follow" />
-    <meta name="description" content="Hmart-Smart Product eCommerce html Template">
+    <meta name="description" content="Product eCommerce html Template">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/logof.png" />
     <!-- CSS
@@ -45,7 +45,9 @@
                                 <ul>
                                     <li><a href="tel:8835235891"><i class="fa fa-phone"></i>+2348835235891</a></li>
                                     <li><a href="mailto:demo@example.com"><i class="fa fa-envelope-o"></i>traceworka@gmail.com</a></li>
-                                    <li><a href="register.php"><i class="fa fa-user"></i>Register/</a><a hraf="login.php">Login</a></li>
+                                    <li><a href="register.php"><i class="fa fa-user"></i>Register/</a><a href="login.php"><i></i>login</a></li>
+                                    <!-- <li><a href="register.php"><i class="fa fa-user"></i>login</a></li> -->
+
                                 </ul>
                             </div>
                         </div>

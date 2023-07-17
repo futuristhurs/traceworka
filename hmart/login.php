@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$pageTitle = 'create accouunt';
+$pageTitle = 'Login accouunt';
 include 'includes/header.php';
 
 
