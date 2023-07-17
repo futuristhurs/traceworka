@@ -1,6 +1,8 @@
 <?php 
-  include 'includes/session.php';
-  include 'includes/format.php'; 
+session_start();
+  // include 'includes/session.php';
+  // include 'includes/format.php'; 
+  include 'includes/connection.php';
 ?>
 <?php 
   $today = date('Y-m-d');
@@ -8,8 +10,6 @@
   if(isset($_GET['year'])){
     $year = $_GET['year'];
   }
-
-  $conn = $pdo->open();
 ?>
 <?php include 'includes/header.php'; ?>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -225,7 +225,6 @@
 ?>
 <!-- End Chart Data -->
 
-<?php $pdo->close(); ?>
 <?php include 'includes/scripts.php'; ?>
 <script>
 $(function(){
@@ -276,7 +275,6 @@ $(function(){
     responsive              : true,
     maintainAspectRatio     : true
   }
-
   barChartOptions.datasetFill = false
   var myChart = barChart.Bar(barChartData, barChartOptions)
   document.getElementById('legend').innerHTML = myChart.generateLegend();

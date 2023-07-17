@@ -182,23 +182,32 @@
                                     class="fa fa-angle-down"></i></a>
                                     <ul class="mega-menu d-block">
                                         <li class="d-flex">
-                                            <!-- <ul class="d-block">
-                                                <li class="title"><a href="#">Shop Page</a></li>
-                                                <li><a href="shop-3-column.html">Shop 3 Column</a></li>
-                                                <li><a href="shop-4-column.html">Shop 4 Column</a></li>
-                                                <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                                <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a>
-                                                </li>
-                                                <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a>
-                                                </li>
-                                            </ul> -->
-                                            <ul class="d-block">
-                                                <li class="title"><a href="#">product Categories</a></li>
+                                                <ul class="d-block">
+
+                                                <?php
+                                                    $conn = new PDO("mysql:host=localhost;dbname=tracemm", "root", "");
+                                                    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+                                                    try {
+                                                        $stmt = $conn->prepare("SELECT * FROM category");
+                                                        $stmt->execute();
+                                                        $categories = $stmt->fetchAll();
+
+                                                        foreach ($categories as $row) {
+                                                            echo "<li><a href='category.php?category=" . $row['cat_slug'] . "'>" . $row['name'] . "</a></li>";
+                                                        }
+                                                    } catch (PDOException $e) {
+                                                        echo "There is some problem in connection: " . $e->getMessage();
+                                                    }
+
+                                                    $conn = null;
+                                                    ?>
+
+                                                <!-- <li class="title"><a href="#">product Categories</a></li>
                                                 <li><a href="shop-4-column.html">Laptop</a></li>
                                                 <li><a href="shop-4-column.html">Desktop</a>
                                                 <li><a href="shop-4-column.html">Phone</a> </li>
-                                                <li><a href="shop-4-column.html">Tablets</a>
+                                                <li><a href="shop-4-column.html">Tablets</a> -->
                                             </ul>
                                             <!-- <ul class="d-block">
                                                 <li class="title"><a href="#">Single Product Page</a></li>
@@ -233,14 +242,7 @@
                                                 <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown position-static"><a href="blog-list-left-sidebar.html">Blog List
-                                                <i class="fa fa-angle-right"></i></a>
-                                            <ul class="sub-menu sub-menu-2">
-                                                <li><a href="blog-list.html">Blog List</a></li>
-                                                <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                                <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
-                                            </ul>
-                                        </li>
+                                       
                                         <li class="dropdown position-static"><a href="blog-single-left-sidebar.html">Single
                                                 Blog <i class="fa fa-angle-right"></i></a>
                                             <ul class="sub-menu sub-menu-2">
