@@ -4,7 +4,7 @@
 	if(isset($_POST['delete'])){
 		$id = $_POST['id'];
 		
-		$conn = $pdo->open();
+		include "../includes/connection.php";
 
 		try{
 			$stmt = $conn->prepare("DELETE FROM category WHERE id=:id");
