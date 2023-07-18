@@ -1,10 +1,12 @@
 <?php 
-	include 'includes/session.php';
+session_start();
+	// include 'includes/session.php';
 
 	if(isset($_POST['id'])){
 		$id = $_POST['id'];
 		
-		$conn = $pdo->open();
+		// $conn = $pdo->open();
+		include '../includes/connection.php';
 
 		$stmt = $conn->prepare("SELECT * FROM users WHERE id=:id");
 		$stmt->execute(['id'=>$id]);

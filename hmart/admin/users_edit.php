@@ -10,7 +10,8 @@
 		$address = $_POST['address'];
 		$contact = $_POST['contact'];
 
-		$conn = $pdo->open();
+		// $conn = $pdo->open();
+		include '../includes/connection.php';
 		$stmt = $conn->prepare("SELECT * FROM users WHERE id=:id");
 		$stmt->execute(['id'=>$id]);
 		$row = $stmt->fetch();

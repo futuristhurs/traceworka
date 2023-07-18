@@ -1,5 +1,6 @@
 <?php
-	include 'includes/session.php';
+	// <!-- include 'includes/session.php'; -->
+	session_start();
 
 	if(isset($_POST['delete'])){
 		$id = $_POST['id'];

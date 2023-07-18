@@ -1,5 +1,7 @@
 <?php
-	include 'includes/session.php';
+	// include 'includes/session.php';
+	session_start();
+	include '../includes/connection.php';
 
 	if(isset($_POST['edit'])){
 		$id = $_POST['id'];

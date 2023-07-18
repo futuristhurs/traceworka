@@ -1,10 +1,12 @@
 <?php
-	include 'includes/session.php';
+	// include 'includes/session.php';
+	session_start();
 
 	if(isset($_POST['delete'])){
 		$id = $_POST['id'];
 		
-		$conn = $pdo->open();
+		// $conn = $pdo->open();
+		include '../includes/connection.php';
 
 		try{
 			$stmt = $conn->prepare("DELETE FROM products WHERE id=:id");

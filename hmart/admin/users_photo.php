@@ -1,5 +1,6 @@
 <?php
-	include 'includes/session.php';
+	// include 'includes/session.php';
+	sesssion_start();
 
 	if(isset($_POST['upload'])){
 		$id = $_POST['id'];
@@ -8,7 +9,8 @@
 			move_uploaded_file($_FILES['photo']['tmp_name'], '../images/'.$filename);	
 		}
 		
-		$conn = $pdo->open();
+		// $conn = $pdo->open();
+		include '../includes/connection.php';
 
 		try{
 			$stmt = $conn->prepare("UPDATE users SET photo=:photo WHERE id=:id");

@@ -1,4 +1,7 @@
-<?php include 'includes/session.php'; ?>
+<?php 
+// include 'includes/session.php';
+session_start();
+ ?>
 <?php
   $where = '';
   if(isset($_GET['category'])){
@@ -64,7 +67,8 @@
                     <select class="form-control input-sm" id="select_category">
                       <option value="0">ALL</option>
                       <?php
-                        $conn = $pdo->open();
+                        // $conn = $pdo->open();
+                        include '../includes/connection.php';
 
                         $stmt = $conn->prepare("SELECT * FROM category");
                         $stmt->execute();
@@ -95,7 +99,8 @@
                 </thead>
                 <tbody>
                   <?php
-                    $conn = $pdo->open();
+                    // $conn = $pdo->open();
+                    include '../includes/connection.php';
 
                     try{
                       $now = date('Y-m-d');

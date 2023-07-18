@@ -1,4 +1,7 @@
-<?php include 'includes/session.php'; ?>
+<?php 
+// include 'includes/session.php'; 
+session_start();
+?>
 <?php include 'includes/header.php'; ?>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -49,7 +52,7 @@
                 </thead>
                 <tbody>
                   <?php
-                    $conn = $pdo->open();
+                    // $conn = $pdo->open();
 
                     try{
                       $stmt = $conn->prepare("SELECT *, sales.id AS salesid FROM sales LEFT JOIN users ON users.id=sales.user_id ORDER BY sales_date DESC");

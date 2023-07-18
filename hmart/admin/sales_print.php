@@ -42,7 +42,8 @@
 		$from_title = date('M d, Y', strtotime($ex[0]));
 		$to_title = date('M d, Y', strtotime($ex[1]));
 
-		$conn = $pdo->open();
+		// $conn = $pdo->open();
+		include '../includes/connection.php';
 
 		require_once('../tcpdf/tcpdf.php');  
 	    $pdf = new TCPDF('P', PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);  

@@ -1,11 +1,13 @@
 <?php
-	include 'includes/session.php';
+	// include 'includes/session.php';
+	session_start();
 
 	if(isset($_POST['upload'])){
 		$id = $_POST['id'];
 		$filename = $_FILES['photo']['name'];
 
-		$conn = $pdo->open();
+		// $conn = $pdo->open();
+		include '../includes/connection.php';
 
 		$stmt = $conn->prepare("SELECT * FROM products WHERE id=:id");
 		$stmt->execute(['id'=>$id]);

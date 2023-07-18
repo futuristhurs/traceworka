@@ -1,10 +1,12 @@
 <?php 
-	include 'includes/session.php';
+	// include 'includes/session.php';
+	session_start();
 
 	if(isset($_POST['id'])){
 		$id = $_POST['id'];
 		
-		$conn = $pdo->open();
+		// $conn = $pdo->open();
+		include '../includes/connection.php';
 
 		$stmt = $conn->prepare("SELECT *, products.id AS prodid, products.name AS prodname, category.name AS catname FROM products LEFT JOIN category ON category.id=products.category_id WHERE products.id=:id");
 		$stmt->execute(['id'=>$id]);

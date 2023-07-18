@@ -1,9 +1,11 @@
 <?php
-	include 'includes/session.php';
+	// include 'includes/session.php';
+	session_start();
 
 	$output = '';
 
-	$conn = $pdo->open();
+	// $conn = $pdo->open();
+	include '../includes/connection.php';
 
 	$stmt = $conn->prepare("SELECT * FROM products");
 	$stmt->execute();

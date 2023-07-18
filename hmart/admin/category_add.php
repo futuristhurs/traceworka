@@ -1,11 +1,13 @@
 
 <?php
-	include 'includes/session.php';
+	// include 'includes/session.php';
+	session_start();
 
 	if(isset($_POST['add'])){
 		$name = $_POST['name'];
 
-		$conn = $pdo->open();
+		// $conn = $pdo->open();
+		include '../includes/connection.php';
 
 		$stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM category WHERE name=:name");
 		$stmt->execute(['name'=>$name]);
