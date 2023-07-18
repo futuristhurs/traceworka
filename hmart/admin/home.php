@@ -1,8 +1,8 @@
 <?php 
 session_start();
   // include 'includes/session.php';
-  // include 'includes/format.php'; 
-  include 'includes/connection.php';
+  include 'includes/format.php'; 
+  include '../includes/connection.php';
 ?>
 <?php 
   $today = date('Y-m-d');
