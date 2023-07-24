@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/venobox.css">
     <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+
+    <link rel="stylesheet" href="assets/css/product.css">
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Minify Version -->

@@ -13,8 +13,7 @@
 		$curr_password = $_POST['curr_password'];
 		$email = $_POST['email'];
 		$password = $_POST['password'];
-		$firstname = $_POST['firstname'];
-		$lastname = $_POST['lastname'];
+		$name = $_POST['name'];
 		$photo = $_FILES['photo']['name'];
 		if(password_verify($curr_password, $admin['password'])){
 			if(!empty($photo)){
@@ -35,8 +34,8 @@
 			$conn = $pdo->open();
 
 			try{
-				$stmt = $conn->prepare("UPDATE users SET email=:email, password=:password, firstname=:firstname, lastname=:lastname, photo=:photo WHERE id=:id");
-				$stmt->execute(['email'=>$email, 'password'=>$password, 'firstname'=>$firstname, 'lastname'=>$lastname, 'photo'=>$filename, 'id'=>$admin['id']]);
+				$stmt = $conn->prepare("UPDATE users SET email=:email, password=:password, name=:name, photo=:photo WHERE id=:id");
+				$stmt->execute(['email'=>$email, 'password'=>$password, 'name'=>$name, 'photo'=>$filename, 'id'=>$admin['id']]);
 
 				$_SESSION['success'] = 'Account updated successfully';
 			}

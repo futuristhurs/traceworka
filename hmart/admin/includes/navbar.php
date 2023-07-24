@@ -19,7 +19,7 @@
         <li class="dropdown user user-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <img src="<?php echo (!empty($admin['photo'])) ? '../images/'.$admin['photo'] : '../images/profile.jpg'; ?>" class="user-image" alt="User Image">
-            <span class="hidden-xs"><?php echo $admin['firstname'].' '.$admin['lastname']; ?></span>
+            <span class="hidden-xs"><?php echo $admin['name']; ?></span>
           </a>
           <ul class="dropdown-menu">
             <!-- User image -->
@@ -27,8 +27,8 @@
               <img src="<?php echo (!empty($admin['photo'])) ? '../images/'.$admin['photo'] : '../images/profile.jpg'; ?>" class="img-circle" alt="User Image">
 
               <p>
-                <?php echo $admin['firstname'].' '.$admin['lastname']; ?>
-                <small>Member since <?php echo date('M. Y', strtotime($admin['created_on'])); ?></small>
+                <?php echo $admin['name']; ?>
+                <small>Member since <?php echo date('M. Y', strtotime($admin['created_at'])); ?></small>
               </p>
             </li>
             <li class="user-footer">
