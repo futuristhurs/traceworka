@@ -1,6 +1,5 @@
 <?php
-	// include 'includes/session.php';
-	session_start();
+	include 'includes/session.php';
 	include 'includes/slugify.php';
 
 	if(isset($_POST['add'])){
@@ -11,8 +10,7 @@
 		$description = $_POST['description'];
 		$filename = $_FILES['photo']['name'];
 
-		// $conn = $pdo->open();
-		include '../includes/connection.php';
+		$conn = $pdo->open();
 
 		$stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM products WHERE slug=:slug");
 		$stmt->execute(['slug'=>$slug]);

@@ -1,7 +1,7 @@
 <?php
 // i have not gotten everything i want from this page 
 session_start();
-include "includes/connection.php";
+include "includes/conn.php";
 
 if (isset($_POST["logins"])) {
     $email = $_POST["email"];
@@ -14,13 +14,13 @@ if (isset($_POST["logins"])) {
         exit();
     }
 
-    // Query the database
-    $sql = "SELECT * FROM users WHERE email = '$email' AND password = '$password'";
-    $result = mysqli_query($conn, $sql);
+    // Query the database using PDO
+    $stmt = $pdo->open()->prepare("SELECT * FROM users WHERE email = :email AND password = :password");
+    $stmt->execute(['email' => $email, 'password' => $password]);
+    $row = $stmt->fetch();
 
-    if (mysqli_num_rows($result) === 1) {
+    if ($row) {
         // Login successful
-        $row = mysqli_fetch_assoc($result);
         $_SESSION['name'] = $row['name']; // Assuming the name column is 'Name'
         header("Location: my-account.php");
         exit();
@@ -31,5 +31,6 @@ if (isset($_POST["logins"])) {
         exit();
     }
 
+    $pdo->close(); // Close the connection after using it
 }
 ?>

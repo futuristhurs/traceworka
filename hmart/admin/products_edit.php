@@ -1,6 +1,5 @@
 <?php
-	// include 'includes/session.php';
-	session_start();
+	include 'includes/session.php';
 	include 'includes/slugify.php';
 
 	if(isset($_POST['edit'])){
@@ -11,8 +10,7 @@
 		$price = $_POST['price'];
 		$description = $_POST['description'];
 
-		// $conn = $pdo->open();
-		include '../includes/connection.php';
+		$conn = $pdo->open();
 
 		try{
 			$stmt = $conn->prepare("UPDATE products SET name=:name, slug=:slug, category_id=:category, price=:price, description=:description WHERE id=:id");

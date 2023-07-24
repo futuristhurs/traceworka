@@ -1,6 +1,5 @@
 <?php
-	// include 'includes/session.php';
-	session_start();
+	include 'includes/session.php';
 
 	if(isset($_GET['return'])){
 		$return = $_GET['return'];
@@ -33,8 +32,7 @@
 				$password = password_hash($password, PASSWORD_DEFAULT);
 			}
 
-			// $conn = $pdo->open();
-			include '../includes/connection.php';
+			$conn = $pdo->open();
 
 			try{
 				$stmt = $conn->prepare("UPDATE users SET email=:email, password=:password, firstname=:firstname, lastname=:lastname, photo=:photo WHERE id=:id");

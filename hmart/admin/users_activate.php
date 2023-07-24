@@ -1,12 +1,10 @@
 <?php
-	// include 'includes/session.php';
-	session_start();
-	include '../includes/connection.php';
+	include 'includes/session.php';
 
 	if(isset($_POST['activate'])){
 		$id = $_POST['id'];
 		
-		// $conn = $pdo->open();
+		$conn = $pdo->open();
 
 		try{
 			$stmt = $conn->prepare("UPDATE users SET status=:status WHERE id=:id");

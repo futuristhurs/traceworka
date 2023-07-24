@@ -1,11 +1,10 @@
 <?php
-	// <!-- include 'includes/session.php'; -->
-	session_start();
+	include 'includes/session.php';
 
 	if(isset($_POST['delete'])){
 		$id = $_POST['id'];
 		
-		include "../includes/connection.php";
+		$conn = $pdo->open();
 
 		try{
 			$stmt = $conn->prepare("DELETE FROM category WHERE id=:id");

@@ -61,8 +61,7 @@
                 </thead>
                 <tbody>
                   <?php
-                    // $conn = $pdo->open();
-                    include '../includes/connection.php';
+                    $conn = $pdo->open();
 
                     try{
                       $stmt = $conn->prepare("SELECT * FROM users WHERE type=:type");

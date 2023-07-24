@@ -1,7 +1,4 @@
-<?php 
-// include 'includes/session.php';
-session_start();
- ?>
+<?php include 'includes/session.php'; ?>
 <?php include 'includes/header.php'; ?>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -61,8 +58,7 @@ session_start();
                 </thead>
                 <tbody>
                   <?php
-                    // $conn = $pdo->open();
-                    include '../includes/connection.php';
+                    $conn = $pdo->open();
 
                     try{
                       $stmt = $conn->prepare("SELECT * FROM category");

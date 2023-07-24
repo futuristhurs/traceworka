@@ -1,3 +1,6 @@
+<?php
+// session_start();
+?>
 <!DOCTYPE html>
 <html lang="zxx" dir="ltr">
 
@@ -104,9 +107,9 @@
                         </div>
                         <div class="col-lg-6 d-none d-lg-block">
                             <div class="search-element">
-                                <form action="#">
-                                    <input type="text" placeholder="Search" />
-                                    <button><i class="pe-7s-search"></i></button>
+                                <form action="search.php" method="post">
+                                    <input type="text" name="keyword"placeholder="Search for products" />
+                                    <button type="submit"><i class="pe-7s-search"></i></button>
                                 </form>
                             </div>
                         </div>
@@ -266,9 +269,9 @@
                 <div class="container">
                     <!-- mobile search start -->
                     <div class="search-element max-width-100">
-                        <form action="#">
-                            <input type="text" placeholder="Search" />
-                            <button><i class="pe-7s-search"></i></button>
+                        <form action="search.php" method="post">
+                            <input type="text" name= "keyword" placeholder="Search for products" />
+                            <button type="submit"><i class="pe-7s-search"></i></button>
                         </form>
                     </div>
                     <!-- mobile search start -->

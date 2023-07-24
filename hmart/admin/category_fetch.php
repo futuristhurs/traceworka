@@ -1,11 +1,9 @@
 <?php
-	// include 'includes/session.php';
-	session_start();
+	include 'includes/session.php';
 
 	$output = '';
 
-	// $conn = $pdo->open();
-	include '../includes/connection.php';
+	$conn = $pdo->open();
 
 	$stmt = $conn->prepare("SELECT * FROM category");
 	$stmt->execute();
