@@ -45,7 +45,7 @@
                                 <ul>
                                     <li><a href="tel:0123456789"><i class="fa fa-phone"></i> +012 3456 789</a></li>
                                     <li><a href="mailto:demo@example.com"><i class="fa fa-envelope-o"></i> demo@example.com</a></li>
-                                    <li><a href="my-account.html"><i class="fa fa-user"></i> Account</a></li>
+                                    <li><a href="my-account.php"><i class="fa fa-user"></i> Account</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-3 col">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/images/logo/logo.png" alt="Site Logo" /></a>
+                                <a href="index.php"><img src="assets/images/logo/logo.png" alt="Site Logo" /></a>
                             </div>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block">
@@ -97,7 +97,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-3 col">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/images/logo/logo.png" alt="Site Logo" /></a>
+                                <a href="index.php"><img src="assets/images/logo/logo.png" alt="Site Logo" /></a>
                             </div>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block">
@@ -137,38 +137,38 @@
                             <ul>
                                 <li class="dropdown"><a href="#">Home <i class="fa fa-angle-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="index.html">Home 1</a></li>
-                                        <li><a href="index-2.html">Home 2</a></li>
+                                        <li><a href="index.php">Home 1</a></li>
+                                        <li><a href="index-2.php">Home 2</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="about.html">About</a></li>
-                                <li class="dropdown position-static"><a href="about.html">Pages <i class="fa fa-angle-down"></i></a>
+                                <li><a href="about.php">About</a></li>
+                                <li class="dropdown position-static"><a href="about.php">Pages <i class="fa fa-angle-down"></i></a>
                                     <ul class="mega-menu d-block">
                                         <li class="d-flex">
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">Inner Pages</a></li>
-                                                <li><a href="404.html">404 Page</a></li>
-                                                <li><a href="order-tracking.html">Order Tracking</a></li>
-                                                <li><a href="faq.html">Faq Page</a></li>
-                                                <li><a href="coming-soon.html">Coming Soon Page</a></li>
+                                                <li><a href="404.php">404 Page</a></li>
+                                                <li><a href="order-tracking.php">Order Tracking</a></li>
+                                                <li><a href="faq.php">Faq Page</a></li>
+                                                <li><a href="coming-soon.php">Coming Soon Page</a></li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">Other Shop Pages</a></li>
-                                                <li><a href="cart.html">Cart Page</a></li>
-                                                <li><a href="checkout.html">Checkout Page</a></li>
-                                                <li><a href="compare.html">Compare Page</a></li>
-                                                <li><a href="wishlist.html">Wishlist Page</a></li>
+                                                <li><a href="cart.php">Cart Page</a></li>
+                                                <li><a href="checkout.php">Checkout Page</a></li>
+                                                <li><a href="compare.php">Compare Page</a></li>
+                                                <li><a href="wishlist.php">Wishlist Page</a></li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">Related Shop Pages</a></li>
-                                                <li><a href="my-account.html">Account Page</a></li>
-                                                <li><a href="login.html">Login & Register Page</a></li>
-                                                <li><a href="empty-cart.html">Empty Cart Page</a></li>
-                                                <li><a href="thank-you-page.html">Thank You Page</a></li>
+                                                <li><a href="my-account.php">Account Page</a></li>
+                                                <li><a href="login.php">Login & Register Page</a></li>
+                                                <li><a href="empty-cart.php">Empty Cart Page</a></li>
+                                                <li><a href="thank-you-page.php">Thank You Page</a></li>
                                             </ul>
                                             <ul class="d-flex align-items-center p-0 border-0 flex-column justify-content-center">
                                                 <li>
-                                                    <a class="p-0" href="shop-left-sidebar.html"><img class="img-responsive w-100" src="assets/images/banner/menu-banner.png" alt=""></a>
+                                                    <a class="p-0" href="shop-left-sidebar.php"><img class="img-responsive w-100" src="assets/images/banner/menu-banner.png" alt=""></a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -180,78 +180,78 @@
                                         <li class="d-flex">
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">Shop Page</a></li>
-                                                <li><a href="shop-3-column.html">Shop 3 Column</a></li>
-                                                <li><a href="shop-4-column.html">Shop 4 Column</a></li>
-                                                <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                                <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a>
+                                                <li><a href="shop-3-column.php">Shop 3 Column</a></li>
+                                                <li><a href="shop-4-column.php">Shop 4 Column</a></li>
+                                                <li><a href="shop-left-sidebar.php">Shop Left Sidebar</a></li>
+                                                <li><a href="shop-right-sidebar.php">Shop Right Sidebar</a></li>
+                                                <li><a href="shop-list-left-sidebar.php">Shop List Left Sidebar</a>
                                                 </li>
-                                                <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a>
+                                                <li><a href="shop-list-right-sidebar.php">Shop List Right Sidebar</a>
                                                 </li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">product Details Page</a></li>
-                                                <li><a href="single-product.html">Product Single</a></li>
-                                                <li><a href="single-product-variable.html">Product Variable</a></li>
-                                                <li><a href="single-product-affiliate.html">Product Affiliate</a></li>
-                                                <li><a href="single-product-group.html">Product Group</a></li>
-                                                <li><a href="single-product-tabstyle-2.html">Product Tab 2</a></li>
-                                                <li><a href="single-product-tabstyle-3.html">Product Tab 3</a></li>
+                                                <li><a href="single-product.php">Product Single</a></li>
+                                                <li><a href="single-product-variable.php">Product Variable</a></li>
+                                                <li><a href="single-product-affiliate.php">Product Affiliate</a></li>
+                                                <li><a href="single-product-group.php">Product Group</a></li>
+                                                <li><a href="single-product-tabstyle-2.php">Product Tab 2</a></li>
+                                                <li><a href="single-product-tabstyle-3.php">Product Tab 3</a></li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">Single Product Page</a></li>
-                                                <li><a href="single-product-slider.html">Product Slider</a></li>
-                                                <li><a href="single-product-gallery-left.html">Product Gallery Left</a>
-                                                <li><a href="single-product-gallery-right.html">Product Gallery Right</a> </li>
-                                                <li><a href="single-product-sticky-left.html">Product Sticky Left</a>
+                                                <li><a href="single-product-slider.php">Product Slider</a></li>
+                                                <li><a href="single-product-gallery-left.php">Product Gallery Left</a>
+                                                <li><a href="single-product-gallery-right.php">Product Gallery Right</a> </li>
+                                                <li><a href="single-product-sticky-left.php">Product Sticky Left</a>
                                                 </li>
-                                                <li><a href="single-product-sticky-right.html">Product Sticky Right</a>
+                                                <li><a href="single-product-sticky-right.php">Product Sticky Right</a>
                                                 </li>
-                                                <li><a href="cart.html">Cart Page</a></li>
+                                                <li><a href="cart.php">Cart Page</a></li>
                                             </ul>
                                             <ul class="d-block p-0 border-0">
                                                 <li class="title"><a href="#">Single Product Page</a></li>
-                                                <li><a href="checkout.html">Checkout Page</a></li>
-                                                <li><a href="compare.html">Compare Page</a></li>
-                                                <li><a href="wishlist.html">Wishlist Page</a></li>
-                                                <li><a href="my-account.html">Account Page</a></li>
-                                                <li><a href="login.html">Login & Register Page</a></li>
-                                                <li><a href="empty-cart.html">Empty Cart Page</a></li>
+                                                <li><a href="checkout.php">Checkout Page</a></li>
+                                                <li><a href="compare.php">Compare Page</a></li>
+                                                <li><a href="wishlist.php">Wishlist Page</a></li>
+                                                <li><a href="my-account.php">Account Page</a></li>
+                                                <li><a href="login.php">Login & Register Page</a></li>
+                                                <li><a href="empty-cart.php">Empty Cart Page</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="dropdown "><a href="#">Blog <i class="fa fa-angle-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li class="dropdown position-static"><a href="blog-grid-left-sidebar.html">Blog Grid
+                                        <li class="dropdown position-static"><a href="blog-grid-left-sidebar.php">Blog Grid
                                                 <i class="fa fa-angle-right"></i></a>
                                             <ul class="sub-menu sub-menu-2">
-                                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
-                                                <li><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
+                                                <li><a href="blog-grid.php">Blog Grid</a></li>
+                                                <li><a href="blog-grid-left-sidebar.php">Blog Grid Left Sidebar</a></li>
+                                                <li><a href="blog-grid-right-sidebar.php">Blog Grid Right Sidebar</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown position-static"><a href="blog-list-left-sidebar.html">Blog List
+                                        <li class="dropdown position-static"><a href="blog-list-left-sidebar.php">Blog List
                                                 <i class="fa fa-angle-right"></i></a>
                                             <ul class="sub-menu sub-menu-2">
-                                                <li><a href="blog-list.html">Blog List</a></li>
-                                                <li><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                                <li><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
+                                                <li><a href="blog-list.php">Blog List</a></li>
+                                                <li><a href="blog-list-left-sidebar.php">Blog List Left Sidebar</a></li>
+                                                <li><a href="blog-list-right-sidebar.php">Blog List Right Sidebar</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown position-static"><a href="blog-single-left-sidebar.html">Single
+                                        <li class="dropdown position-static"><a href="blog-single-left-sidebar.php">Single
                                                 Blog <i class="fa fa-angle-right"></i></a>
                                             <ul class="sub-menu sub-menu-2">
-                                                <li><a href="blog-single.html">Single Blog</a>
-                                                <li><a href="blog-single-left-sidebar.html">Single Blog Left Sidebar</a>
+                                                <li><a href="blog-single.php">Single Blog</a>
+                                                <li><a href="blog-single-left-sidebar.php">Single Blog Left Sidebar</a>
                                                 </li>
-                                                <li><a href="blog-single-right-sidebar.html">Single Blog Right Sidebar</a>
+                                                <li><a href="blog-single-right-sidebar.php">Single Blog Right Sidebar</a>
                                                 </li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -284,25 +284,25 @@
                 <div class="body customScroll">
                     <ul class="minicart-product-list">
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/1.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/1.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Modern Smart Phone</a>
+                                <a href="single-product.php" class="title">Modern Smart Phone</a>
                                 <span class="quantity-price">1 x <span class="amount">$21.86</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
                         </li>
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/2.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/2.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Bluetooth Headphone</a>
+                                <a href="single-product.php" class="title">Bluetooth Headphone</a>
                                 <span class="quantity-price">1 x <span class="amount">$13.28</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
                         </li>
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/3.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/3.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Smart Music Box</a>
+                                <a href="single-product.php" class="title">Smart Music Box</a>
                                 <span class="quantity-price">1 x <span class="amount">$17.34</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
@@ -311,7 +311,7 @@
                 </div>
                 <div class="foot">
                     <div class="buttons">
-                        <a href="wishlist.html" class="btn btn-dark btn-hover-primary mt-30px">view wishlist</a>
+                        <a href="wishlist.php" class="btn btn-dark btn-hover-primary mt-30px">view wishlist</a>
                     </div>
                 </div>
             </div>
@@ -327,25 +327,25 @@
                 <div class="body customScroll">
                     <ul class="minicart-product-list">
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/1.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/1.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Modern Smart Phone</a>
+                                <a href="single-product.php" class="title">Modern Smart Phone</a>
                                 <span class="quantity-price">1 x <span class="amount">$18.86</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
                         </li>
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/2.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/2.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Bluetooth Headphone</a>
+                                <a href="single-product.php" class="title">Bluetooth Headphone</a>
                                 <span class="quantity-price">1 x <span class="amount">$43.28</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
                         </li>
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/3.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/3.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Smart Music Box</a>
+                                <a href="single-product.php" class="title">Smart Music Box</a>
                                 <span class="quantity-price">1 x <span class="amount">$37.34</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
@@ -354,8 +354,8 @@
                 </div>
                 <div class="foot">
                     <div class="buttons mt-30px">
-                        <a href="cart.html" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
-                        <a href="checkout.html" class="btn btn-outline-dark current-btn">checkout</a>
+                        <a href="cart.php" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
+                        <a href="checkout.php" class="btn btn-outline-dark current-btn">checkout</a>
                     </div>
                 </div>
             </div>
@@ -368,7 +368,7 @@
                 <ul>
                     <li><a href="tel:0123456789"><i class="fa fa-phone"></i> +012 3456 789</a></li>
                     <li><a href="mailto:demo@example.com"><i class="fa fa-envelope-o"></i> demo@example.com</a></li>
-                    <li><a href="my-account.html"><i class="fa fa-user"></i> Account</a></li>
+                    <li><a href="my-account.php"><i class="fa fa-user"></i> Account</a></li>
                 </ul>
             </div>
             <div class="inner customScroll">
@@ -376,39 +376,39 @@
                     <ul>
                         <li><a href="#"><span class="menu-text">Home</span></a>
                             <ul class="sub-menu">
-                                <li><a href="index.html"><span class="menu-text">Home 1</span></a></li>
-                                <li><a href="index-2.html"><span class="menu-text">Home 2</span></a></li>
+                                <li><a href="index.php"><span class="menu-text">Home 1</span></a></li>
+                                <li><a href="index-2.php"><span class="menu-text">Home 2</span></a></li>
                             </ul>
                         </li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.php">About</a></li>
                         <li>
                             <a href="#"><span class="menu-text">Pages</span></a>
                             <ul class="sub-menu">
                                 <li>
                                     <a href="#"><span class="menu-text">Inner Pages</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="404.html">404 Page</a></li>
-                                        <li><a href="order-tracking.html">Order Tracking</a></li>
-                                        <li><a href="faq.html">Faq Page</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon Page</a></li>
+                                        <li><a href="404.php">404 Page</a></li>
+                                        <li><a href="order-tracking.php">Order Tracking</a></li>
+                                        <li><a href="faq.php">Faq Page</a></li>
+                                        <li><a href="coming-soon.php">Coming Soon Page</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#"><span class="menu-text"> Other Shop Pages</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="cart.html">Cart Page</a></li>
-                                        <li><a href="checkout.html">Checkout Page</a></li>
-                                        <li><a href="compare.html">Compare Page</a></li>
-                                        <li><a href="wishlist.html">Wishlist Page</a></li>
+                                        <li><a href="cart.php">Cart Page</a></li>
+                                        <li><a href="checkout.php">Checkout Page</a></li>
+                                        <li><a href="compare.php">Compare Page</a></li>
+                                        <li><a href="wishlist.php">Wishlist Page</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#"><span class="menu-text">Related Shop Page</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="my-account.html">Account Page</a></li>
-                                        <li><a href="login.html">Login & Register Page</a></li>
-                                        <li><a href="empty-cart.html">Empty Cart Page</a></li>
-                                        <li><a href="thank-you-page.html">Thank You Page</a></li>
+                                        <li><a href="my-account.php">Account Page</a></li>
+                                        <li><a href="login.php">Login & Register Page</a></li>
+                                        <li><a href="empty-cart.php">Empty Cart Page</a></li>
+                                        <li><a href="thank-you-page.php">Thank You Page</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -418,63 +418,63 @@
                                 <li>
                                     <a href="#"><span class="menu-text">Shop Page</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="shop-3-column.html">Shop 3 Column</a></li>
-                                        <li><a href="shop-4-column.html">Shop 4 Column</a></li>
-                                        <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                        <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                        <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a>
+                                        <li><a href="shop-3-column.php">Shop 3 Column</a></li>
+                                        <li><a href="shop-4-column.php">Shop 4 Column</a></li>
+                                        <li><a href="shop-left-sidebar.php">Shop Left Sidebar</a></li>
+                                        <li><a href="shop-right-sidebar.php">Shop Right Sidebar</a></li>
+                                        <li><a href="shop-list-left-sidebar.php">Shop List Left Sidebar</a>
                                         </li>
-                                        <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a>
+                                        <li><a href="shop-list-right-sidebar.php">Shop List Right Sidebar</a>
                                         </li>
-                                        <li><a href="cart.html">Cart Page</a></li>
-                                        <li><a href="checkout.html">Checkout Page</a></li>
+                                        <li><a href="cart.php">Cart Page</a></li>
+                                        <li><a href="checkout.php">Checkout Page</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#"><span class="menu-text">product Details Page</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="single-product.html">Product Single</a></li>
-                                        <li><a href="single-product-variable.html">Product Variable</a></li>
-                                        <li><a href="single-product-affiliate.html">Product Affiliate</a></li>
-                                        <li><a href="single-product-group.html">Product Group</a></li>
-                                        <li><a href="single-product-tabstyle-2.html">Product Tab 2</a></li>
-                                        <li><a href="single-product-tabstyle-3.html">Product Tab 3</a></li>
-                                        <li><a href="single-product-slider.html">Product Slider</a></li>
-                                        <li><a href="single-product-gallery-left.html">Product Gallery Left</a>
+                                        <li><a href="single-product.php">Product Single</a></li>
+                                        <li><a href="single-product-variable.php">Product Variable</a></li>
+                                        <li><a href="single-product-affiliate.php">Product Affiliate</a></li>
+                                        <li><a href="single-product-group.php">Product Group</a></li>
+                                        <li><a href="single-product-tabstyle-2.php">Product Tab 2</a></li>
+                                        <li><a href="single-product-tabstyle-3.php">Product Tab 3</a></li>
+                                        <li><a href="single-product-slider.php">Product Slider</a></li>
+                                        <li><a href="single-product-gallery-left.php">Product Gallery Left</a>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#"><span class="menu-text">Single Product Page</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="single-product-gallery-right.html">Product Gallery
+                                        <li><a href="single-product-gallery-right.php">Product Gallery
                                                 Right</a> </li>
-                                        <li><a href="single-product-sticky-left.html">Product Sticky Left</a>
+                                        <li><a href="single-product-sticky-left.php">Product Sticky Left</a>
                                         </li>
-                                        <li><a href="single-product-sticky-right.html">Product Sticky Right</a>
+                                        <li><a href="single-product-sticky-right.php">Product Sticky Right</a>
                                         </li>
-                                        <li><a href="compare.html">Compare Page</a></li>
-                                        <li><a href="wishlist.html">Wishlist Page</a></li>
-                                        <li><a href="my-account.html">Account Page</a></li>
-                                        <li><a href="login.html">Login & Register Page</a></li>
-                                        <li><a href="empty-cart.html">Empty Cart Page</a></li>
+                                        <li><a href="compare.php">Compare Page</a></li>
+                                        <li><a href="wishlist.php">Wishlist Page</a></li>
+                                        <li><a href="my-account.php">Account Page</a></li>
+                                        <li><a href="login.php">Login & Register Page</a></li>
+                                        <li><a href="empty-cart.php">Empty Cart Page</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                         <li><a href="#"><span class="menu-text">Blog</span></a>
                             <ul class="sub-menu">
-                                <li><a href="blog-grid.html">Blog Grid Page</a></li>
-                                <li><a href="blog-grid-left-sidebar.html">Grid Left Sidebar</a></li>
-                                <li><a href="blog-grid-right-sidebar.html">Grid Right Sidebar</a></li>
-                                <li><a href="blog-list.html">Blog List Page</a></li>
-                                <li><a href="blog-list-left-sidebar.html">List Left Sidebar</a></li>
-                                <li><a href="blog-list-right-sidebar.html">List Right Sidebar</a></li>
-                                <li><a href="blog-single.html">Blog Single Page</a></li>
-                                <li><a href="blog-single-left-sidebar.html">Single Left Sidebar</a></li>
-                                <li><a href="blog-single-right-sidebar.html">Single Right Sidbar</a>
+                                <li><a href="blog-grid.php">Blog Grid Page</a></li>
+                                <li><a href="blog-grid-left-sidebar.php">Grid Left Sidebar</a></li>
+                                <li><a href="blog-grid-right-sidebar.php">Grid Right Sidebar</a></li>
+                                <li><a href="blog-list.php">Blog List Page</a></li>
+                                <li><a href="blog-list-left-sidebar.php">List Left Sidebar</a></li>
+                                <li><a href="blog-list-right-sidebar.php">List Right Sidebar</a></li>
+                                <li><a href="blog-single.php">Blog Single Page</a></li>
+                                <li><a href="blog-single-left-sidebar.php">Single Left Sidebar</a></li>
+                                <li><a href="blog-single-right-sidebar.php">Single Right Sidbar</a>
                             </ul>
                         </li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- OffCanvas Menu End -->
@@ -510,7 +510,7 @@
                             <p class="dsc_cmpted">Thank you for ordering in our store. You will receive a confirmation
                                 email shortly.</p>
                             <div class="btn_cmpted">
-                                <a href="shop-4-column.html" class="shop-btn" title="Go To Shop">Continue Shopping </a>
+                                <a href="shop-4-column.php" class="shop-btn" title="Go To Shop">Continue Shopping </a>
                             </div>
                         </div>
                         <div class="main_quickorder text-align-center">
@@ -532,7 +532,7 @@
                             <div class="col-md-6 col-lg-3 mb-md-30px mb-lm-30px">
                                 <div class="single-wedge">
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="assets/images/logo/footer-logo.png" alt=""></a>
+                                        <a href="index.php"><img src="assets/images/logo/footer-logo.png" alt=""></a>
                                     </div>
                                     <p class="about-text">Lorem ipsum dolor sit amet consl adipisi elit, sed do eiusmod templ incididunt ut labore
                                     </p>
@@ -564,11 +564,11 @@
                                     <div class="footer-links">
                                         <div class="footer-row">
                                             <ul class="align-items-center">
-                                                <li class="li"><a class="single-link" href="my-account.html">My Account</a></li>
-                                                <li class="li"><a class="single-link" href="contact.html">Contact</a></li>
-                                                <li class="li"><a class="single-link" href="cart.html">Shopping cart</a></li>
-                                                <li class="li"><a class="single-link" href="shop-left-sidebar.html">Shop</a></li>
-                                                <li class="li"><a class="single-link" href="login.html">Services Login</a></li>
+                                                <li class="li"><a class="single-link" href="my-account.php">My Account</a></li>
+                                                <li class="li"><a class="single-link" href="contact.php">Contact</a></li>
+                                                <li class="li"><a class="single-link" href="cart.php">Shopping cart</a></li>
+                                                <li class="li"><a class="single-link" href="shop-left-sidebar.php">Shop</a></li>
+                                                <li class="li"><a class="single-link" href="login.php">Services Login</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -582,11 +582,11 @@
                                     <div class="footer-links">
                                         <div class="footer-row">
                                             <ul class="align-items-center">
-                                                <li class="li"><a class="single-link" href="my-account.html">My Account</a></li>
-                                                <li class="li"><a class="single-link" href="contact.html">Contact</a></li>
-                                                <li class="li"><a class="single-link" href="cart.html">Shopping cart</a></li>
-                                                <li class="li"><a class="single-link" href="shop-left-sidebar.html">Shop</a></li>
-                                                <li class="li"><a class="single-link" href="login.html">Services Login</a></li>
+                                                <li class="li"><a class="single-link" href="my-account.php">My Account</a></li>
+                                                <li class="li"><a class="single-link" href="contact.php">Contact</a></li>
+                                                <li class="li"><a class="single-link" href="cart.php">Shopping cart</a></li>
+                                                <li class="li"><a class="single-link" href="shop-left-sidebar.php">Shop</a></li>
+                                                <li class="li"><a class="single-link" href="login.php">Services Login</a></li>
                                             </ul>
                                         </div>
                                     </div>

@@ -47,7 +47,7 @@
                                     <li><a href="tel:+234 907 154 3344"><i class="fa fa-phone"></i> +234 907 154 3344</a></li>
                                     <li><a href="mailto:hello@traceworka.ng"><i class="fa fa-envelope-o"></i>hello@traceworka.ng</a></li>
 
-                                    <li><a href="login.html"><i class="fa fa-user"></i> Register/Login</a></li>
+                                    <li><a href="login.php"><i class="fa fa-user"></i> Register/Login</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-3 col">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/images/logo/logos.png" alt="Site Logo" /></a>
+                                <a href="index.php"><img src="assets/images/logo/logos.png" alt="Site Logo" /></a>
                             </div>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block">
@@ -99,7 +99,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-3 col">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/images/logo/logos.png" alt="Site Logo" /></a>
+                                <a href="index.php"><img src="assets/images/logo/logos.png" alt="Site Logo" /></a>
                             </div>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block">
@@ -137,7 +137,7 @@
                     <div class="header-nav">
                         <div class="main-menu position-relative">
                             <ul>
-                                <li class="dropdown"><a href="index.html">Home 
+                                <li class="dropdown"><a href="index.php">Home
                                     <!-- <i class="fa fa-angle-down"></i> -->
                                 </a>
                                     <!-- <ul class="sub-menu">
@@ -145,34 +145,34 @@
                                         <li><a href="index-2.php">Home 2</a></li>
                                     </ul> -->
                                 </li>
-                                <li><a href="about.html">About</a></li>
-c                                <li class="dropdown position-static"><a href="about.html">Pages <i class="fa fa-angle-down"></i></a>
+                                <li><a href="about.php">About</a></li>
+c                                <li class="dropdown position-static"><a href="about.php">Pages <i class="fa fa-angle-down"></i></a>
                                     <ul class="mega-menu d-block">
                                         <li class="d-flex">
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">Inner Pages</a></li>
-                                                <li><a href="404.html">404 Page</a></li>
-                                                <li><a href="order-tracking.html">Order Tracking</a></li>
-                                                <li><a href="faq.html">Faq Page</a></li>
-                                                <li><a href="coming-soon.html">Coming Soon Page</a></li>
+                                                <li><a href="404.php">404 Page</a></li>
+                                                <li><a href="order-tracking.php">Order Tracking</a></li>
+                                                <li><a href="faq.php">Faq Page</a></li>
+                                                <li><a href="coming-soon.php">Coming Soon Page</a></li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">Other Shop Pages</a></li>
-                                                <li><a href="cart.html">Cart Page</a></li>
-                                                <li><a href="checkout.html">Checkout Page</a></li>
-                                                <li><a href="compare.html">Compare Page</a></li>
-                                                <li><a href="wishlist.html">Wishlist Page</a></li>
+                                                <li><a href="cart.php">Cart Page</a></li>
+                                                <li><a href="checkout.php">Checkout Page</a></li>
+                                                <li><a href="compare.php">Compare Page</a></li>
+                                                <li><a href="wishlist.php">Wishlist Page</a></li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">Related Shop Pages</a></li>
-                                                <li><a href="my-account.html">Account Page</a></li>
-                                                <li><a href="login.html">Login & Register Page</a></li>
-                                                <li><a href="empty-cart.html">Empty Cart Page</a></li>
-                                                <li><a href="thank-you-page.html">Thank You Page</a></li>
+                                                <li><a href="my-account.php">Account Page</a></li>
+                                                <li><a href="login.php">Login & Register Page</a></li>
+                                                <li><a href="empty-cart.php">Empty Cart Page</a></li>
+                                                <li><a href="thank-you-page.php">Thank You Page</a></li>
                                             </ul>
                                             <ul class="d-flex align-items-center p-0 border-0 flex-column justify-content-center">
                                                 <li>
-                                                    <a class="p-0" href="shop-left-sidebar.html"><img class="img-responsive w-100" src="assets/images/banner/menu-banner.png" alt=""></a>
+                                                    <a class="p-0" href="shop-left-sidebar.php"><img class="img-responsive w-100" src="assets/images/banner/menu-banner.png" alt=""></a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -184,54 +184,54 @@ c                                <li class="dropdown position-static"><a href="a
                                         <li class="d-flex">
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">Shop Page</a></li>
-                                                <li><a href="shop-3-column.html">Shop 3 Column</a></li>
-                                                <li><a href="shop-4-column.html">Shop 4 Column</a></li>
-                                                <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                                <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a>
+                                                <li><a href="shop-3-column.php">Shop 3 Column</a></li>
+                                                <li><a href="shop-4-column.php">Shop 4 Column</a></li>
+                                                <li><a href="shop-left-sidebar.php">Shop Left Sidebar</a></li>
+                                                <li><a href="shop-right-sidebar.php">Shop Right Sidebar</a></li>
+                                                <li><a href="shop-list-left-sidebar.php">Shop List Left Sidebar</a>
                                                 </li>
-                                                <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a>
+                                                <li><a href="shop-list-right-sidebar.php">Shop List Right Sidebar</a>
                                                 </li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">product Details Page</a></li>
-                                                <li><a href="single-product.html">Product Single</a></li>
-                                                <li><a href="single-product-variable.html">Product Variable</a></li>
-                                                <li><a href="single-product-affiliate.html">Product Affiliate</a></li>
-                                                <li><a href="single-product-group.html">Product Group</a></li>
-                                                <li><a href="single-product-tabstyle-2.html">Product Tab 2</a></li>
-                                                <li><a href="single-product-tabstyle-3.html">Product Tab 3</a></li>
+                                                <li><a href="single-product.php">Product Single</a></li>
+                                                <li><a href="single-product-variable.php">Product Variable</a></li>
+                                                <li><a href="single-product-affiliate.php">Product Affiliate</a></li>
+                                                <li><a href="single-product-group.php">Product Group</a></li>
+                                                <li><a href="single-product-tabstyle-2.php">Product Tab 2</a></li>
+                                                <li><a href="single-product-tabstyle-3.php">Product Tab 3</a></li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="title"><a href="#">Single Product Page</a></li>
-                                                <li><a href="single-product-slider.html">Product Slider</a></li>
-                                                <li><a href="single-product-gallery-left.html">Product Gallery Left</a>
-                                                <li><a href="single-product-gallery-right.html">Product Gallery Right</a> </li>
-                                                <li><a href="single-product-sticky-left.html">Product Sticky Left</a>
+                                                <li><a href="single-product-slider.php">Product Slider</a></li>
+                                                <li><a href="single-product-gallery-left.php">Product Gallery Left</a>
+                                                <li><a href="single-product-gallery-right.php">Product Gallery Right</a> </li>
+                                                <li><a href="single-product-sticky-left.php">Product Sticky Left</a>
                                                 </li>
-                                                <li><a href="single-product-sticky-right.html">Product Sticky Right</a>
+                                                <li><a href="single-product-sticky-right.php">Product Sticky Right</a>
                                                 </li>
-                                                <li><a href="cart.html">Cart Page</a></li>
+                                                <li><a href="cart.php">Cart Page</a></li>
                                             </ul>
                                             <ul class="d-block p-0 border-0">
                                                 <li class="title"><a href="#">Single Product Page</a></li>
-                                                <li><a href="checkout.html">Checkout Page</a></li>
-                                                <li><a href="compare.html">Compare Page</a></li>
-                                                <li><a href="wishlist.html">Wishlist Page</a></li>
-                                                <li><a href="my-account.html">Account Page</a></li>
-                                                <li><a href="login.html">Login & Register Page</a></li>
-                                                <li><a href="empty-cart.html">Empty Cart Page</a></li>
+                                                <li><a href="checkout.php">Checkout Page</a></li>
+                                                <li><a href="compare.php">Compare Page</a></li>
+                                                <li><a href="wishlist.php">Wishlist Page</a></li>
+                                                <li><a href="my-account.php">Account Page</a></li>
+                                                <li><a href="login.php">Login & Register Page</a></li>
+                                                <li><a href="empty-cart.php">Empty Cart Page</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
                                 <!-- <li class="dropdown "><a href="#">Blog <i class="fa fa-angle-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li class="dropdown position-static"><a href="blog-grid-left-sidebar.html">Blog Grid
+                                        <li class="dropdown position-static"><a href="blog-grid-left-sidebar.php">Blog Grid
                                                 <i class="fa fa-angle-right"></i></a>
                                             <ul class="sub-menu sub-menu-2">
                                                 <li><a href="blog-grid.php">Blog Grid</a></li>
-                                                <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
+                                                <li><a href="blog-grid-left-sidebar.php">Blog Grid Left Sidebar</a></li>
                                                 <li><a href="blog-grid-right-sidebar.php">Blog Grid Right Sidebar</a></li>
                                             </ul>
                                         </li>
@@ -249,13 +249,13 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <li><a href="blog-single.php">Single Blog</a>
                                                 <li><a href="blog-single-left-sidebar.php">Single Blog Left Sidebar</a>
                                                 </li>
-                                                <li><a href="blog-single-right-sidebar.html">Single Blog Right Sidebar</a>
+                                                <li><a href="blog-single-right-sidebar.php">Single Blog Right Sidebar</a>
                                                 </li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li> -->
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -288,25 +288,25 @@ c                                <li class="dropdown position-static"><a href="a
                 <div class="body customScroll">
                     <ul class="minicart-product-list">
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/1.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/1.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Modern Smart Phone</a>
+                                <a href="single-product.php" class="title">Modern Smart Phone</a>
                                 <span class="quantity-price">1 x <span class="amount">$21.86</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
                         </li>
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/2.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/2.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Bluetooth Headphone</a>
+                                <a href="single-product.php" class="title">Bluetooth Headphone</a>
                                 <span class="quantity-price">1 x <span class="amount">$13.28</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
                         </li>
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/3.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/3.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Smart Music Box</a>
+                                <a href="single-product.php" class="title">Smart Music Box</a>
                                 <span class="quantity-price">1 x <span class="amount">$17.34</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
@@ -315,7 +315,7 @@ c                                <li class="dropdown position-static"><a href="a
                 </div>
                 <div class="foot">
                     <div class="buttons">
-                        <a href="wishlist.html" class="btn btn-dark btn-hover-primary mt-30px">view wishlist</a>
+                        <a href="wishlist.php" class="btn btn-dark btn-hover-primary mt-30px">view wishlist</a>
                     </div>
                 </div>
             </div>
@@ -331,25 +331,25 @@ c                                <li class="dropdown position-static"><a href="a
                 <div class="body customScroll">
                     <ul class="minicart-product-list">
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/1.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/1.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Modern Smart Phone</a>
+                                <a href="single-product.php" class="title">Modern Smart Phone</a>
                                 <span class="quantity-price">1 x <span class="amount">$18.86</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
                         </li>
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/2.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/2.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Bluetooth Headphone</a>
+                                <a href="single-product.php" class="title">Bluetooth Headphone</a>
                                 <span class="quantity-price">1 x <span class="amount">$43.28</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
                         </li>
                         <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/3.webp" alt="Cart product Image"></a>
+                            <a href="single-product.php" class="image"><img src="assets/images/product-image/3.webp" alt="Cart product Image"></a>
                             <div class="content">
-                                <a href="single-product.html" class="title">Smart Music Box</a>
+                                <a href="single-product.php" class="title">Smart Music Box</a>
                                 <span class="quantity-price">1 x <span class="amount">$37.34</span></span>
                                 <a href="#" class="remove">×</a>
                             </div>
@@ -358,8 +358,8 @@ c                                <li class="dropdown position-static"><a href="a
                 </div>
                 <div class="foot">
                     <div class="buttons mt-30px">
-                        <a href="cart.html" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
-                        <a href="checkout.html" class="btn btn-outline-dark current-btn">checkout</a>
+                        <a href="cart.php" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
+                        <a href="checkout.php" class="btn btn-outline-dark current-btn">checkout</a>
                     </div>
                 </div>
             </div>
@@ -372,47 +372,47 @@ c                                <li class="dropdown position-static"><a href="a
                 <ul>
                     <li><a href="tel:0123456789"><i class="fa fa-phone"></i> +012 3456 789</a></li>
                     <li><a href="mailto:hello@traceworka.ng"><i class="fa fa-envelope-o"></i> hello@traceworka.ng</a></li>
-                    <li><a href="my-account.html"><i class="fa fa-user"></i> Account</a></li>
+                    <li><a href="my-account.php"><i class="fa fa-user"></i> Account</a></li>
                 </ul>
             </div>
             <div class="inner customScroll">
                 <div class="offcanvas-menu mb-4">
                     <ul>
-                        <li><a href="index.html"><span class="menu-text">Home</span></a>
+                        <li><a href="index.php"><span class="menu-text">Home</span></a>
                             <!-- <ul class="sub-menu">
                                 <li><a href="index.php"><span class="menu-text">Home 1</span></a></li>
                                 <li><a href="index-2.php"><span class="menu-text">Home 2</span></a></li>
                             </ul> -->
                         </li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.php">About</a></li>
                         <li>
                             <a href="#"><span class="menu-text">Pages</span></a>
                             <ul class="sub-menu">
                                 <li>
                                     <a href="#"><span class="menu-text">Inner Pages</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="404.html">404 Page</a></li>
-                                        <li><a href="order-tracking.html">Order Tracking</a></li>
-                                        <li><a href="faq.html">Faq Page</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon Page</a></li>
+                                        <li><a href="404.php">404 Page</a></li>
+                                        <li><a href="order-tracking.php">Order Tracking</a></li>
+                                        <li><a href="faq.php">Faq Page</a></li>
+                                        <li><a href="coming-soon.php">Coming Soon Page</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#"><span class="menu-text"> Other Shop Pages</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="cart.html">Cart Page</a></li>
-                                        <li><a href="checkout.html">Checkout Page</a></li>
-                                        <li><a href="compare.html">Compare Page</a></li>
-                                        <li><a href="wishlist.html">Wishlist Page</a></li>
+                                        <li><a href="cart.php">Cart Page</a></li>
+                                        <li><a href="checkout.php">Checkout Page</a></li>
+                                        <li><a href="compare.php">Compare Page</a></li>
+                                        <li><a href="wishlist.php">Wishlist Page</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#"><span class="menu-text">Related Shop Page</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="my-account.html">Account Page</a></li>
-                                        <li><a href="login.html">Login & Register Page</a></li>
-                                        <li><a href="empty-cart.html">Empty Cart Page</a></li>
-                                        <li><a href="thank-you-page.html">Thank You Page</a></li>
+                                        <li><a href="my-account.php">Account Page</a></li>
+                                        <li><a href="login.php">Login & Register Page</a></li>
+                                        <li><a href="empty-cart.php">Empty Cart Page</a></li>
+                                        <li><a href="thank-you-page.php">Thank You Page</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -422,51 +422,51 @@ c                                <li class="dropdown position-static"><a href="a
                                 <li>
                                     <a href="#"><span class="menu-text">Shop Page</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="shop-3-column.html">Shop 3 Column</a></li>
-                                        <li><a href="shop-4-column.html">Shop 4 Column</a></li>
-                                        <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                        <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                        <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a>
+                                        <li><a href="shop-3-column.php">Shop 3 Column</a></li>
+                                        <li><a href="shop-4-column.php">Shop 4 Column</a></li>
+                                        <li><a href="shop-left-sidebar.php">Shop Left Sidebar</a></li>
+                                        <li><a href="shop-right-sidebar.php">Shop Right Sidebar</a></li>
+                                        <li><a href="shop-list-left-sidebar.php">Shop List Left Sidebar</a>
                                         </li>
-                                        <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a>
+                                        <li><a href="shop-list-right-sidebar.php">Shop List Right Sidebar</a>
                                         </li>
-                                        <li><a href="cart.html">Cart Page</a></li>
-                                        <li><a href="checkout.html">Checkout Page</a></li>
+                                        <li><a href="cart.php">Cart Page</a></li>
+                                        <li><a href="checkout.php">Checkout Page</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#"><span class="menu-text">product Details Page</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="single-product.html">Product Single</a></li>
-                                        <li><a href="single-product-variable.html">Product Variable</a></li>
-                                        <li><a href="single-product-affiliate.html">Product Affiliate</a></li>
-                                        <li><a href="single-product-group.html">Product Group</a></li>
-                                        <li><a href="single-product-tabstyle-2.html">Product Tab 2</a></li>
-                                        <li><a href="single-product-tabstyle-3.html">Product Tab 3</a></li>
-                                        <li><a href="single-product-slider.html">Product Slider</a></li>
-                                        <li><a href="single-product-gallery-left.html">Product Gallery Left</a>
+                                        <li><a href="single-product.php">Product Single</a></li>
+                                        <li><a href="single-product-variable.php">Product Variable</a></li>
+                                        <li><a href="single-product-affiliate.php">Product Affiliate</a></li>
+                                        <li><a href="single-product-group.php">Product Group</a></li>
+                                        <li><a href="single-product-tabstyle-2.php">Product Tab 2</a></li>
+                                        <li><a href="single-product-tabstyle-3.php">Product Tab 3</a></li>
+                                        <li><a href="single-product-slider.php">Product Slider</a></li>
+                                        <li><a href="single-product-gallery-left.php">Product Gallery Left</a>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#"><span class="menu-text">Single Product Page</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="single-product-gallery-right.html">Product Gallery
+                                        <li><a href="single-product-gallery-right.php">Product Gallery
                                                 Right</a> </li>
-                                        <li><a href="single-product-sticky-left.html">Product Sticky Left</a>
+                                        <li><a href="single-product-sticky-left.php">Product Sticky Left</a>
                                         </li>
-                                        <li><a href="single-product-sticky-right.html">Product Sticky Right</a>
+                                        <li><a href="single-product-sticky-right.php">Product Sticky Right</a>
                                         </li>
-                                        <li><a href="compare.html">Compare Page</a></li>
-                                        <li><a href="wishlist.html">Wishlist Page</a></li>
-                                        <li><a href="my-account.html">Account Page</a></li>
-                                        <li><a href="login.html">Login & Register Page</a></li>
-                                        <li><a href="empty-cart.html">Empty Cart Page</a></li>
+                                        <li><a href="compare.php">Compare Page</a></li>
+                                        <li><a href="wishlist.php">Wishlist Page</a></li>
+                                        <li><a href="my-account.php">Account Page</a></li>
+                                        <li><a href="login.php">Login & Register Page</a></li>
+                                        <li><a href="empty-cart.php">Empty Cart Page</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
 
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- OffCanvas Menu End -->
@@ -507,7 +507,7 @@ c                                <li class="dropdown position-static"><a href="a
                                         <h2 class="title-1">Your Home <br>
                                         Smart Devices & <br>
                                          Best Solution </h2>
-                                        <a href="shop-left-sidebar.html" class="btn btn-primary text-capitalize">Shop All Devices</a>
+                                        <a href="shop-left-sidebar.php" class="btn btn-primary text-capitalize">Shop All Devices</a>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex justify-content-center position-relative align-items-end">
@@ -530,7 +530,7 @@ c                                <li class="dropdown position-static"><a href="a
                                         <h2 class="title-1">Your Home <br>
                                         Smart Devices & <br>
                                          Best Solution </h2>
-                                        <a href="shop-left-sidebar.html" class="btn btn-primary text-capitalize">Shop All Devices</a>
+                                        <a href="shop-left-sidebar.php" class="btn btn-primary text-capitalize">Shop All Devices</a>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex justify-content-center position-relative align-items-end">
@@ -565,7 +565,7 @@ c                                <li class="dropdown position-static"><a href="a
                                 <h3 class="title">Smart watch For <br>
                                 Your Hand</h3>
                                 <span class="category">From $29.00</span>
-                                <a href="shop-left-sidebar.html" class="shop-link"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="shop-left-sidebar.php" class="shop-link"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -575,7 +575,7 @@ c                                <li class="dropdown position-static"><a href="a
                             <div class="banner-content nth-child-2">
                                 <h3 class="title">Headphones</h3>
                                 <span class="category">From $95.00</span>
-                                <a href="shop-left-sidebar.html" class="shop-link"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="shop-left-sidebar.php" class="shop-link"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         <div class="single-banner nth-child-2">
@@ -583,7 +583,7 @@ c                                <li class="dropdown position-static"><a href="a
                             <div class="banner-content nth-child-3">
                                 <h3 class="title">Smartphone</h3>
                                 <span class="category">From $69.00</span>
-                                <a href="shop-left-sidebar.html" class="shop-link"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <a href="shop-left-sidebar.php" class="shop-link"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -625,14 +625,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">New</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/1.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/1.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Modern Smart Phone
+                                                <h5 class="title"><a href="single-product.php">Modern Smart Phone
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -658,14 +658,14 @@ c                                <li class="dropdown position-static"><a href="a
                                             <span class="new">New</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/2.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/2.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Bluetooth Headphone
+                                                <h5 class="title"><a href="single-product.php">Bluetooth Headphone
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -691,14 +691,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">Sale</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/3.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/3.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Smart Music Box
+                                                <h5 class="title"><a href="single-product.php">Smart Music Box
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -723,14 +723,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">New</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/4.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/1.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Air Pods 25Hjkl Black
+                                                <h5 class="title"><a href="single-product.php">Air Pods 25Hjkl Black
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -754,14 +754,14 @@ c                                <li class="dropdown position-static"><a href="a
                                             <span class="badges">
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/5.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/5.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Smart Hand Watch
+                                                <h5 class="title"><a href="single-product.php">Smart Hand Watch
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -787,14 +787,14 @@ c                                <li class="dropdown position-static"><a href="a
                                             <span class="new">Sale</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/6.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/6.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Smart Table Camera
+                                                <h5 class="title"><a href="single-product.php">Smart Table Camera
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -820,14 +820,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">Sale</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/7.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/1.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Round Pocket Router
+                                                <h5 class="title"><a href="single-product.php">Round Pocket Router
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -852,14 +852,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="sale">-5%</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/8.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/8.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Power Bank 10000Mhp
+                                                <h5 class="title"><a href="single-product.php">Power Bank 10000Mhp
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -891,14 +891,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">New</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/1.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/1.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Modern Smart Phone
+                                                <h5 class="title"><a href="single-product.php">Modern Smart Phone
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -924,14 +924,14 @@ c                                <li class="dropdown position-static"><a href="a
                                             <span class="new">New</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/2.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/2.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Bluetooth Headphone
+                                                <h5 class="title"><a href="single-product.php">Bluetooth Headphone
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -957,14 +957,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">Sale</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/3.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/3.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Smart Music Box
+                                                <h5 class="title"><a href="single-product.php">Smart Music Box
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -989,14 +989,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">New</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/4.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/1.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Air Pods 25Hjkl Black
+                                                <h5 class="title"><a href="single-product.php">Air Pods 25Hjkl Black
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1020,14 +1020,14 @@ c                                <li class="dropdown position-static"><a href="a
                                             <span class="badges">
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/5.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/5.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Smart Hand Watch
+                                                <h5 class="title"><a href="single-product.php">Smart Hand Watch
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1053,14 +1053,14 @@ c                                <li class="dropdown position-static"><a href="a
                                             <span class="new">Sale</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/6.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/6.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Smart Table Camera
+                                                <h5 class="title"><a href="single-product.php">Smart Table Camera
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1086,14 +1086,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">Sale</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/7.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/1.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Round Pocket Router
+                                                <h5 class="title"><a href="single-product.php">Round Pocket Router
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1118,14 +1118,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="sale">-5%</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/8.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/8.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Power Bank 10000Mhp
+                                                <h5 class="title"><a href="single-product.php">Power Bank 10000Mhp
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1157,14 +1157,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">New</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/1.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/1.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Modern Smart Phone
+                                                <h5 class="title"><a href="single-product.php">Modern Smart Phone
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1190,14 +1190,14 @@ c                                <li class="dropdown position-static"><a href="a
                                             <span class="new">New</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/2.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/2.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Bluetooth Headphone
+                                                <h5 class="title"><a href="single-product.php">Bluetooth Headphone
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1223,14 +1223,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">Sale</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/3.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/3.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Smart Music Box
+                                                <h5 class="title"><a href="single-product.php">Smart Music Box
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1255,14 +1255,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">New</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/4.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/1.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Air Pods 25Hjkl Black
+                                                <h5 class="title"><a href="single-product.php">Air Pods 25Hjkl Black
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1286,14 +1286,14 @@ c                                <li class="dropdown position-static"><a href="a
                                             <span class="badges">
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/5.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/5.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Smart Hand Watch
+                                                <h5 class="title"><a href="single-product.php">Smart Hand Watch
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1319,14 +1319,14 @@ c                                <li class="dropdown position-static"><a href="a
                                             <span class="new">Sale</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/6.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/6.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Smart Table Camera
+                                                <h5 class="title"><a href="single-product.php">Smart Table Camera
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1352,14 +1352,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="new">Sale</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/7.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/1.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Round Pocket Router
+                                                <h5 class="title"><a href="single-product.php">Round Pocket Router
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1384,14 +1384,14 @@ c                                <li class="dropdown position-static"><a href="a
                                                 <span class="sale">-5%</span>
                                             </span>
                                             <div class="thumb">
-                                                <a href="single-product.html" class="image">
+                                                <a href="single-product.php" class="image">
                                                     <img src="assets/images/product-image/8.webp" alt="Product" />
                                                     <img class="hover-image" src="assets/images/product-image/8.webp" alt="Product" />
                                                 </a>
                                             </div>
                                             <div class="content">
                                                 <span class="category"><a href="#">Accessories</a></span>
-                                                <h5 class="title"><a href="single-product.html">Power Bank 10000Mhp
+                                                <h5 class="title"><a href="single-product.php">Power Bank 10000Mhp
                                                     </a>
                                                 </h5>
                                                 <span class="price">
@@ -1425,7 +1425,7 @@ c                                <li class="dropdown position-static"><a href="a
                 <div class="row justify-content-center align-items-center h-100">
                     <div class="col-12 text-center">
                         <h2 class="title"> <span>Smart Fashion</span> With Smart Devices </h2>
-                        <a href="shop-left-sidebar.html" class="btn btn-primary text-capitalize m-auto">Shop All Devices</a>
+                        <a href="shop-left-sidebar.php" class="btn btn-primary text-capitalize m-auto">Shop All Devices</a>
                     </div>
                 </div>
             </div>
@@ -1449,7 +1449,7 @@ c                                <li class="dropdown position-static"><a href="a
                                 <img src="assets/images/feature-image/1.webp" alt="">
                             </div>
                             <div class="top-content">
-                                <h4 class="title"><a href="single-product.html">Bluetooth Headphone </a></h4>
+                                <h4 class="title"><a href="single-product.php">Bluetooth Headphone </a></h4>
                                 <span class="price">
                             <span class="old"><del>$48.50</del></span>
                                 <span class="new">$38.50</span>
@@ -1459,7 +1459,7 @@ c                                <li class="dropdown position-static"><a href="a
                                 <div class="deal-timing">
                                     <div data-countdown="2023/09/15"></div>
                                 </div>
-                                <a href="single-product-variable.html" class="btn btn-primary  m-auto"> Shop
+                                <a href="single-product-variable.php" class="btn btn-primary  m-auto"> Shop
                                     Now </a>
                             </div>
                         </div>
@@ -1477,7 +1477,7 @@ c                                <li class="dropdown position-static"><a href="a
                                     <div data-countdown="2024/09/15"></div>
                                 </div>
                                 <div class="prize-content">
-                                    <h5 class="title"><a href="single-product.html">Ladies Smart Watch</a></h5>
+                                    <h5 class="title"><a href="single-product.php">Ladies Smart Watch</a></h5>
                                     <span class="price">
                                         <span class="old">$48.50</span>
                                         <span class="new">$38.50</span>
@@ -1505,7 +1505,7 @@ c                                <li class="dropdown position-static"><a href="a
                                     <div data-countdown="2023/09/15"></div>
                                 </div>
                                 <div class="prize-content">
-                                    <h5 class="title"><a href="single-product.html">Ladies Smart Watch</a></h5>
+                                    <h5 class="title"><a href="single-product.php">Ladies Smart Watch</a></h5>
                                     <span class="price">
                             <span class="old">$48.50</span>
                                     <span class="new">$38.50</span>
@@ -1650,7 +1650,7 @@ c                                <li class="dropdown position-static"><a href="a
                             <div class="col-md-6 col-lg-3 mb-md-30px mb-lm-30px">
                                 <div class="single-wedge">
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="assets/images/logo/logos.png" alt=""></a>
+                                        <a href="index.php"><img src="assets/images/logo/logos.png" alt=""></a>
                                     </div>
                                     <p class="about-text">Lorem ipsum dolor sit amet consl adipisi elit, sed do eiusmod templ incididunt ut labore
                                     </p>
@@ -1682,11 +1682,11 @@ c                                <li class="dropdown position-static"><a href="a
                                     <div class="footer-links">
                                         <div class="footer-row">
                                             <ul class="align-items-center">
-                                                <li class="li"><a class="single-link" href="my-account.html">My Account</a></li>
-                                                <li class="li"><a class="single-link" href="contact.html">Contact</a></li>
-                                                <li class="li"><a class="single-link" href="cart.html">Shopping cart</a></li>
-                                                <li class="li"><a class="single-link" href="shop-left-sidebar.html">Shop</a></li>
-                                                <li class="li"><a class="single-link" href="login.html">Services Login</a></li>
+                                                <li class="li"><a class="single-link" href="my-account.php">My Account</a></li>
+                                                <li class="li"><a class="single-link" href="contact.php">Contact</a></li>
+                                                <li class="li"><a class="single-link" href="cart.php">Shopping cart</a></li>
+                                                <li class="li"><a class="single-link" href="shop-left-sidebar.php">Shop</a></li>
+                                                <li class="li"><a class="single-link" href="login.php">Services Login</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1700,11 +1700,11 @@ c                                <li class="dropdown position-static"><a href="a
                                     <div class="footer-links">
                                         <div class="footer-row">
                                             <ul class="align-items-center">
-                                                <li class="li"><a class="single-link" href="my-account.html">My Account</a></li>
-                                                <li class="li"><a class="single-link" href="contact.html">Contact</a></li>
-                                                <li class="li"><a class="single-link" href="cart.html">Shopping cart</a></li>
-                                                <li class="li"><a class="single-link" href="shop-left-sidebar.html">Shop</a></li>
-                                                <li class="li"><a class="single-link" href="login.html">Services Login</a></li>
+                                                <li class="li"><a class="single-link" href="my-account.php">My Account</a></li>
+                                                <li class="li"><a class="single-link" href="contact.php">Contact</a></li>
+                                                <li class="li"><a class="single-link" href="cart.php">Shopping cart</a></li>
+                                                <li class="li"><a class="single-link" href="shop-left-sidebar.php">Shop</a></li>
+                                                <li class="li"><a class="single-link" href="login.php">Services Login</a></li>
                                             </ul>
                                         </div>
                                     </div>
