@@ -26,11 +26,16 @@
     <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
 
     <link rel="stylesheet" href="assets/css/product.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Minify Version -->
     <!-- <link rel="stylesheet" href="assets/css/plugins.min.css">
     <link rel="stylesheet" href="assets/css/style.min.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
 </head>
 
 <body>
@@ -85,9 +90,8 @@
                                 </a>
                                 <!-- Single Wedge End -->
                                 <a href="#offcanvas-cart" class="header-action-btn header-action-btn-cart offcanvas-toggle pr-0">
-                                    <i class="pe-7s-shopbag"></i>
-                                    <span class="header-action-num">01</span>
-                                    <!-- <span class="cart-amount">€30.00</span> -->
+                                        <i class="pe-7s-shopbag"></i>
+                                        <span class="header-action-num" id="cart-count">0</span>
                                 </a>
                                 <a href="#offcanvas-mobile-menu" class="header-action-btn header-action-btn-menu offcanvas-toggle d-lg-none">
                                     <i class="pe-7s-menu"></i>
@@ -123,9 +127,8 @@
                                 </a>
                                 <!-- Single Wedge End -->
                                 <a href="#offcanvas-cart" class="header-action-btn header-action-btn-cart offcanvas-toggle pr-0">
-                                    <i class="pe-7s-shopbag"></i>
-                                    <span class="header-action-num">01</span>
-                                    <!-- <span class="cart-amount">€30.00</span> -->
+                                        <i class="pe-7s-shopbag"></i>
+                                        <span class="header-action-num" id="cart-count">0</span>
                                 </a>
                                 <a href="#offcanvas-mobile-menu" class="header-action-btn header-action-btn-menu offcanvas-toggle d-lg-none">
                                     <i class="pe-7s-menu"></i>
@@ -343,27 +346,13 @@
                                 <a href="#" class="remove">×</a>
                             </div>
                         </li>
-                        <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/2.webp" alt="Cart product Image"></a>
-                            <div class="content">
-                                <a href="single-product.html" class="title">Bluetooth Headphone</a>
-                                <span class="quantity-price">1 x <span class="amount">$43.28</span></span>
-                                <a href="#" class="remove">×</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="single-product.html" class="image"><img src="assets/images/product-image/3.webp" alt="Cart product Image"></a>
-                            <div class="content">
-                                <a href="single-product.html" class="title">Smart Music Box</a>
-                                <span class="quantity-price">1 x <span class="amount">$37.34</span></span>
-                                <a href="#" class="remove">×</a>
-                            </div>
-                        </li>
+                        
+                        
                     </ul>
                 </div>
                 <div class="foot">
                     <div class="buttons mt-30px">
-                        <a href="cart.html" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
+                        <a href="cart_view.php" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
                         <a href="checkout.html" class="btn btn-outline-dark current-btn">checkout</a>
                     </div>
                 </div>
@@ -509,3 +498,37 @@
             </div>
         </div>
         <!-- OffCanvas Menu End -->
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.add-to-cart').on('click', function(e) {
+        e.preventDefault();
+        var productId = $(this).data('product-id');
+        var quantity = 1; // You can set the desired quantity here or adjust it as needed
+
+        $.ajax({
+            url: 'add_to_cart.php',
+            method: 'POST',
+            dataType: 'json',
+            data: {
+                id: productId,
+                quantity: quantity
+            },
+            success: function(response) {
+                if (!response.error) {
+                    // Update the cart count in the frontend
+                    var cartCount = response.cartCount;
+                    $('#cart-count').text(cartCount);
+                } else {
+                    // Handle the error here (e.g., show an error message)
+                }
+            },
+            error: function(xhr, status, error) {
+                // Handle AJAX error here
+            }
+        });
+    });
+});
+</script>
